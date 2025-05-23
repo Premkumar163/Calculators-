@@ -40,7 +40,6 @@ body{
 #a1{
     color: rgb(244, 248, 244);
     border: 1px solid transparent;
-    /* box-shadow: 1px 1px 5px 1px   rgb(148, 146, 146); */
     box-shadow: 0px 0px 10px 0px   rgb(78, 76, 76);
     border-radius: 43%;
    
@@ -49,7 +48,6 @@ body{
 #a2{
     color: rgb(244, 248, 244);
     border: 1px solid transparent;
-    /* box-shadow: 1px 1px 5px 1px   rgb(148, 146, 146); */
     box-shadow: 0px 0px 10px 0px   rgb(78, 76, 76);
     border-radius: 46%;
    
@@ -75,7 +73,6 @@ body{
 #a5{
     color: rgb(244, 248, 244);
     border: 1px solid transparent;
-    /* box-shadow: 1px 1px 5px 1px   rgb(148, 146, 146); */
     box-shadow: 0px 0px 10px 0px   rgb(78, 76, 76);
     border-radius: 43%;
     
