@@ -3,7 +3,9 @@
 body{
     height: 100%;
     
-    background-color:#1c242c;
+    /* background-color:#1c242c; */
+
+    background-color:#f2f5f8;
    
 }
 
@@ -28,6 +30,7 @@ body{
    
     text-align: center;
     background-color:#1c242c;
+     
     border: 0.5px solid transparent;
    
     box-shadow: 1px 1px 20px 5px rgb(94, 93, 93);
@@ -43,6 +46,10 @@ body{
     box-shadow: 0px 0px 10px 0px   rgb(78, 76, 76);
     border-radius: 43%;
    
+}
+
+#a1::after{
+    color: red;
 }
 
 #a2{
@@ -181,7 +188,7 @@ body{
 #equal{
     color: rgb(244, 248, 244);
     border: 1px solid transparent;
-    /* box-shadow: 1px 1px 5px 1px   rgb(148, 146, 146); */
+  
     box-shadow: 0px 0px 10px 0px   rgb(139, 134, 134);
     border-radius: 43%;
     background-color: rgb(211, 148, 29);
@@ -212,3 +219,25 @@ body{
     border-radius: 43%;
    
 }
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* Animated gradient background */
+    background: linear-gradient(-45deg, #e0f7fa, #4fc3f7, #0288d1, #e1bee7);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+/* ...existing code... */
