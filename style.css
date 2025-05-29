@@ -104,7 +104,7 @@ body{
 #a8{
     color: rgb(244, 248, 244);
     border: 1px solid transparent;
-    /* box-shadow: 1px 1px 5px 1px   rgb(148, 146, 146); */
+   
     box-shadow: 0px 0px 10px 0px   rgb(78, 76, 76);
     border-radius: 43%;
   
@@ -223,7 +223,7 @@ body{
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    /* Animated gradient background */
+    
     background: linear-gradient(-45deg, #e0f7fa, #4fc3f7, #0288d1, #e1bee7);
     background-size: 400% 400%;
     animation: gradientBG 10s ease infinite;
